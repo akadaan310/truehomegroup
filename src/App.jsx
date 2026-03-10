@@ -6,6 +6,7 @@ import Services from './components/Services';
 import WhyTrueHome from './components/WhyTrueHome';
 import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
 import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
 import gsap from 'gsap';
@@ -24,6 +25,7 @@ function App() {
                 <WhyTrueHome />
                 <HowItWorks />
                 <Testimonials />
+                <Contact />
                 <BookingForm />
             </main>
             <Footer />

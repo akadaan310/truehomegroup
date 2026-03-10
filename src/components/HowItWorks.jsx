@@ -43,7 +43,7 @@ const HowItWorks = () => {
             title: 'Book in Minutes',
             desc: 'Tell us your appliance, your address, and your preferred time. We handle the rest.',
             svgContent: (
-                <svg className="w-48 h-48 text-brand-amber stroke-current" viewBox="0 0 24 24" fill="none" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <svg className="w-48 h-48 text-brand-deepblue stroke-current" viewBox="0 0 24 24" fill="none" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                     <line x1="16" y1="2" x2="16" y2="6"></line>
                     <line x1="8" y1="2" x2="8" y2="6"></line>
@@ -100,7 +100,7 @@ const HowItWorks = () => {
                         className="step-card w-full min-h-[60vh] flex flex-col md:flex-row items-center justify-between gap-12 bg-white rounded-[2.5rem] shadow-2xl p-12 lg:p-20 mb-[10vh] last:mb-0 border border-brand-muted/10 transform-origin-top relative"
                     >
                         <div className="w-full md:w-1/2 flex flex-col items-start text-left z-10">
-                            <span className="font-mono text-xl text-brand-amber font-semibold tracking-wider mb-4 block">STEP {step.num}</span>
+                            <span className="font-mono text-xl text-brand-deepblue font-semibold tracking-wider mb-4 block">STEP {step.num}</span>
                             <h3 className="font-display font-bold text-4xl lg:text-5xl mb-6 text-brand-dark">{step.title}</h3>
                             <p className="text-xl leading-relaxed text-brand-muted font-sans">
                                 {step.desc}

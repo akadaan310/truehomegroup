@@ -26,7 +26,7 @@ const TrustBar = () => {
 
     const items = [
         { icon: <ShieldCheck className="text-brand-navy w-6 h-6" />, label: 'Licensed & Insured Technicians' },
-        { icon: <Flame className="text-brand-amber w-6 h-6" />, label: 'Gas & Water Certified' },
+        { icon: <Flame className="text-blue-600 w-6 h-6" />, label: 'Gas & Water Certified' },
         { icon: <BadgeCheck className="text-brand-sage w-6 h-6" />, label: 'Workmanship Guarantee' },
         { icon: <Star className="text-yellow-500 w-6 h-6 fill-yellow-500" />, label: '5-Star Rated Service' },
     ];

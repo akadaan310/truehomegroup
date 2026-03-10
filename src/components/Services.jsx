@@ -106,7 +106,7 @@ const Services = () => {
             icon: Flame,
             title: 'Gas Appliances',
             description: 'Rigorous, leak-tested installations for all home gas equipment.',
-            colorClass: 'bg-brand-amber',
+            colorClass: 'bg-blue-600',
             badge: 'Performed by Gas-Certified Pros',
             appliances: ['Gas Ranges', 'Gas Cooktops', 'Gas Dryers', 'Gas Water Heaters', 'Outdoor Gas Grills', 'Gas Fireplaces']
         }

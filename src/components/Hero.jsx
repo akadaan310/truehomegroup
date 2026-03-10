@@ -41,10 +41,10 @@ const Hero = () => {
             <div className="relative z-10 max-w-6xl mx-auto w-full">
                 <div className="max-w-4xl">
                     <h1 className="hero-reveal text-brand-white font-display font-bold text-7xl md:text-[100px] lg:text-[140px] mb-2 tracking-tight leading-none">
-                        Installation
+                        Professional
                     </h1>
                     <h2 className="hero-reveal text-brand-amber font-serif italic text-5xl md:text-7xl lg:text-[90px] leading-[0.85] mb-8 lg:mb-12 mt-2">
-                        done right.
+                        Appliance Installation
                     </h2>
 
                     <p className="hero-reveal text-brand-white/80 font-sans text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
@@ -54,7 +54,7 @@ const Hero = () => {
                     <div className="hero-reveal flex flex-col sm:flex-row gap-4">
                         <a
                             href="#book"
-                            className="group relative inline-flex items-center justify-center rounded-full bg-brand-amber px-8 py-4 text-base font-bold text-white overflow-hidden transition-transform hover:scale-[1.03]"
+                            className="group relative inline-flex items-center justify-center rounded-full bg-brand-sage px-8 py-4 text-base font-bold text-white overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-sage/30"
                         >
                             <span className="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
                             <span className="relative">Book Your Installation</span>

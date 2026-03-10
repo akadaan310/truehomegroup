@@ -74,7 +74,7 @@ const BookingForm = () => {
                         </p>
                         <button
                             onClick={() => setStatus('idle')}
-                            className="text-brand-amber font-semibold hover:underline"
+                            className="text-brand-deepblue font-semibold hover:underline"
                         >
                             Book another installation
                         </button>
@@ -132,7 +132,7 @@ const BookingForm = () => {
                                     required
                                     value={formData.name}
                                     onChange={handleChange}
-                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark"
+                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark"
                                     placeholder="Jane Doe"
                                 />
                             </div>
@@ -145,7 +145,7 @@ const BookingForm = () => {
                                     required
                                     value={formData.email}
                                     onChange={handleChange}
-                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark"
+                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark"
                                     placeholder="jane@example.com"
                                 />
                             </div>
@@ -160,7 +160,7 @@ const BookingForm = () => {
                                     name="phone"
                                     value={formData.phone}
                                     onChange={handleChange}
-                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark"
+                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark"
                                     placeholder="(555) 123-4567"
                                 />
                             </div>
@@ -174,7 +174,7 @@ const BookingForm = () => {
                                     min={minDate}
                                     value={formData.preferred_date}
                                     onChange={handleChange}
-                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark font-sans"
+                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark font-sans"
                                 />
                             </div>
                         </div>
@@ -187,10 +187,10 @@ const BookingForm = () => {
                                 required
                                 value={formData.appliance_type}
                                 onChange={handleChange}
-                                className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark cursor-pointer"
+                                className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark cursor-pointer"
                             >
                                 <option value="" disabled>Select an appliance...</option>
-                                <optgroup label="Tier 1 – Electric">
+                                <optgroup label="Tier 1 â€“ Electric">
                                     <option value="Refrigerator">Refrigerator</option>
                                     <option value="Dishwasher">Dishwasher</option>
                                     <option value="Washer/Dryer">Washer/Dryer</option>
@@ -200,7 +200,7 @@ const BookingForm = () => {
                                     <option value="Electric Cooktop">Electric Cooktop</option>
                                     <option value="Freezer">Freezer</option>
                                 </optgroup>
-                                <optgroup label="Tier 2 – Water & Vent">
+                                <optgroup label="Tier 2 â€“ Water & Vent">
                                     <option value="Fridge Water Line">Fridge Water Line</option>
                                     <option value="Range Hood">Range Hood</option>
                                     <option value="Dryer Vent">Dryer Vent</option>
@@ -209,7 +209,7 @@ const BookingForm = () => {
                                     <option value="Ice Maker">Ice Maker</option>
                                     <option value="Water Filtration">Water Filtration</option>
                                 </optgroup>
-                                <optgroup label="Tier 3 – Gas">
+                                <optgroup label="Tier 3 â€“ Gas">
                                     <option value="Gas Range">Gas Range</option>
                                     <option value="Gas Dryer">Gas Dryer</option>
                                     <option value="Gas Water Heater">Gas Water Heater</option>
@@ -230,7 +230,7 @@ const BookingForm = () => {
                                     required
                                     value={formData.other_appliance}
                                     onChange={handleChange}
-                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark"
+                                    className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark"
                                     placeholder="What do you need installed?"
                                 />
                             </div>
@@ -244,7 +244,7 @@ const BookingForm = () => {
                                 value={formData.notes}
                                 onChange={handleChange}
                                 rows={3}
-                                className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-amber transition-colors duration-200 text-brand-dark resize-none"
+                                className="bg-brand-white border border-gray-300 rounded-xl px-4 py-3 outline-none focus:border-brand-deepblue transition-colors duration-200 text-brand-dark resize-none"
                                 placeholder="E.g. It needs to go up a flight of stairs, or there's an existing unit to remove."
                             ></textarea>
                         </div>
@@ -258,7 +258,7 @@ const BookingForm = () => {
                         <button
                             type="submit"
                             disabled={status === 'loading'}
-                            className="mt-4 group relative w-full flex items-center justify-center rounded-[1.5rem] bg-brand-amber px-8 py-5 text-lg font-bold text-white overflow-hidden transition-transform hover:scale-[1.02] disabled:opacity-75 disabled:hover:scale-100 disabled:cursor-not-allowed"
+                            className="mt-4 group relative w-full flex items-center justify-center rounded-[1.5rem] bg-brand-deepblue px-8 py-5 text-lg font-bold text-white overflow-hidden transition-transform hover:scale-[1.02] disabled:opacity-75 disabled:hover:scale-100 disabled:cursor-not-allowed"
                         >
                             <span className="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
                             <span className="relative flex items-center gap-2">

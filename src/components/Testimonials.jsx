@@ -88,7 +88,7 @@ const Testimonials = () => {
                     <div className="quote-content w-full max-w-4xl">
                         <div className="flex gap-1 mb-8">
                             {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
-                                <Star key={i} className="w-6 h-6 text-brand-amber fill-brand-amber" />
+                                <Star key={i} className="w-6 h-6 text-brand-sage fill-brand-sage" />
                             ))}
                         </div>
 
@@ -119,7 +119,7 @@ const Testimonials = () => {
                                     setCurrentIndex(idx);
                                 }
                             }}
-                            className={`w-3 h-3 rounded-full transition-all duration-300 ${idx === currentIndex ? 'bg-brand-amber text-brand-amber w-8' : 'bg-brand-dark/20'}`}
+                            className={`w-3 h-3 rounded-full transition-all duration-300 ${idx === currentIndex ? 'bg-brand-deepblue text-brand-deepblue w-8' : 'bg-brand-dark/20'}`}
                             aria-label={`Go to testimonial ${idx + 1}`}
                         />
                     ))}

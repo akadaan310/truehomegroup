@@ -22,10 +22,10 @@ const Footer = () => {
                 <div className="md:col-span-3">
                     <h4 className="font-display font-semibold text-lg mb-6 text-white">Quick Links</h4>
                     <ul className="space-y-4">
-                        <li><a href="#services" className="text-brand-white/70 hover:text-brand-amber text-sm transition-colors">Services</a></li>
-                        <li><a href="#why-truehome" className="text-brand-white/70 hover:text-brand-amber text-sm transition-colors">Why TrueHome</a></li>
-                        <li><a href="#testimonials" className="text-brand-white/70 hover:text-brand-amber text-sm transition-colors">Testimonials</a></li>
-                        <li><a href="#book" className="text-brand-white/70 hover:text-brand-amber text-sm transition-colors">Book Installation</a></li>
+                        <li><a href="#services" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Services</a></li>
+                        <li><a href="#why-truehome" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Why TrueHome</a></li>
+                        <li><a href="#testimonials" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Testimonials</a></li>
+                        <li><a href="#book" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Book Installation</a></li>
                     </ul>
                 </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
                     <h4 className="font-display font-semibold text-lg mb-6 text-white">Contact Us</h4>
                     <ul className="space-y-4 text-sm text-brand-white/70">
                         <li>
-                            <a href="mailto:appliances@truehomegroup.com" className="hover:text-brand-amber transition-colors flex items-center gap-2">
+                            <a href="mailto:appliances@truehomegroup.com" className="hover:text-brand-sage transition-colors flex items-center gap-2">
                                 appliances@truehomegroup.com
                             </a>
                         </li>

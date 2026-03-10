@@ -14,10 +14,11 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
+        { name: 'Home', href: '#' },
         { name: 'Services', href: '#services' },
-        { name: 'Why Us', href: '#why-truehome' },
-        { name: 'How It Works', href: '#how-it-works' },
-        { name: 'Testimonials', href: '#testimonials' },
+        { name: 'About us', href: '#why-truehome' },
+        { name: 'Reviews', href: '#testimonials' },
+        { name: 'Contact', href: '#contact' },
     ];
 
     return (
@@ -46,7 +47,7 @@ const Navbar = () => {
                             <a
                                 key={link.name}
                                 href={link.href}
-                                className="px-5 py-2 rounded-full text-brand-white hover:text-white hover:bg-brand-amber/90 transition-all text-sm font-semibold tracking-wide"
+                                className="px-5 py-2 rounded-full text-brand-white hover:text-white hover:bg-brand-sage/90 transition-all text-sm font-semibold tracking-wide"
                             >
                                 {link.name}
                             </a>
@@ -57,9 +58,9 @@ const Navbar = () => {
                     <div className="flex items-center gap-4">
                         <a
                             href="#book"
-                            className="hidden sm:inline-flex items-center justify-center rounded-full bg-brand-amber px-6 py-2.5 text-sm font-bold text-white transition-transform hover:scale-105"
+                            className="hidden sm:inline-flex items-center justify-center rounded-full bg-brand-sage px-6 py-2.5 text-sm font-bold text-white transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-lg hover:shadow-brand-sage/30"
                         >
-                            Book Now
+                            Book Your Installation
                         </a>
                         <button
                             className="md:hidden text-white p-2"
@@ -91,9 +92,9 @@ const Navbar = () => {
                     <a
                         href="#book"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="inline-flex items-center justify-center rounded-full bg-brand-amber px-6 py-3 text-base font-bold text-white"
+                        className="inline-flex items-center justify-center rounded-full bg-brand-sage px-6 py-3 text-base font-bold text-white transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-brand-sage/30"
                     >
-                        Book Now
+                        Book Your Installation
                     </a>
                 </div>
             </div>
