@@ -22,10 +22,11 @@ const Footer = () => {
                 <div className="md:col-span-3">
                     <h4 className="font-display font-semibold text-lg mb-6 text-white">Quick Links</h4>
                     <ul className="space-y-4">
+                        <li><a href="#" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Home</a></li>
                         <li><a href="#services" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Services</a></li>
-                        <li><a href="#why-truehome" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Why TrueHome</a></li>
-                        <li><a href="#testimonials" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Testimonials</a></li>
-                        <li><a href="#book" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Book Installation</a></li>
+                        <li><a href="#why-truehome" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">About us</a></li>
+                        <li><a href="#testimonials" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Reviews</a></li>
+                        <li><a href="#contact" className="text-brand-white/70 hover:text-brand-sage text-sm transition-colors">Contact</a></li>
                     </ul>
                 </div>
 
@@ -39,11 +40,11 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="flex items-center gap-2">
-                            (555) 123-4567
+                            (425) 399-5065
                         </li>
                         <li className="mt-6 pt-6 border-t border-white/10">
                             <span className="block text-white font-medium mb-1">Service Area</span>
-                            We proudly serve the greater metropolitan area with fully licensed and insured professionals.
+                            We proudly serve the greater Seattle Area with fully licensed and insured professionals.
                         </li>
                     </ul>
                 </div>

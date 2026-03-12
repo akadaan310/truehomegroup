@@ -22,9 +22,9 @@ function App() {
                 <Hero />
                 <TrustBar />
                 <Services />
+                <Testimonials />
                 <WhyTrueHome />
                 <HowItWorks />
-                <Testimonials />
                 <Contact />
                 <BookingForm />
             </main>
