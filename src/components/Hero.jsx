@@ -40,10 +40,10 @@ const Hero = () => {
             {/* Content */}
             <div className="relative z-10 max-w-6xl mx-auto w-full">
                 <div className="max-w-4xl">
-                    <h1 className="hero-reveal text-brand-white font-display font-bold text-7xl md:text-[100px] lg:text-[140px] mb-2 tracking-tight leading-none">
+                    <h1 className="hero-reveal text-brand-white font-display font-bold text-5xl md:text-[70px] lg:text-[98px] mb-2 tracking-tight leading-none">
                         Professional
                     </h1>
-                    <h2 className="hero-reveal text-brand-amber font-serif italic text-5xl md:text-7xl lg:text-[90px] leading-[0.85] mb-8 lg:mb-12 mt-2">
+                    <h2 className="hero-reveal text-brand-amber font-display font-bold text-5xl md:text-[70px] lg:text-[98px] tracking-tight leading-none mb-8 lg:mb-12 mt-2">
                         Appliance Installation
                     </h2>
 

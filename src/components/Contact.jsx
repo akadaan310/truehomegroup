@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { MapPin, Mail, Phone, Clock } from 'lucide-react';
+import { MapPin, Mail, Phone, Clock, Globe } from 'lucide-react';
 
 const ContactInfoCard = ({ icon: Icon, title, content, link, delay }) => {
     return (
@@ -44,19 +44,19 @@ const Contact = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8">
                     <ContactInfoCard
                         icon={MapPin}
-                        title="Headquarters"
-                        content="123 Appliance Way<br/>Suite 100<br/>Tampa, FL 33602"
-                        link="https://maps.google.com"
+                        title="Office"
+                        content="720 Seneca St<br/>Ste 107<br/>Seattle, WA 98101"
+                        link="https://maps.app.goo.gl/d7Pwskp6WspQnDb49"
                         delay={0}
                     />
                     <ContactInfoCard
                         icon={Phone}
                         title="Phone Support"
-                        content="<strong class='text-brand-navy text-lg'>(555) 123-4567</strong><br/>Mon-Sat, 8am - 6pm"
-                        link="tel:5551234567"
+                        content="<strong class='text-brand-navy text-lg'>(425) 399-5065</strong><br/>Mon-Sat, 8am - 6pm"
+                        link="tel:4253995065"
                         delay={0.1}
                     />
                     <ContactInfoCard
@@ -72,6 +72,13 @@ const Contact = () => {
                         content="Monday - Saturday<br/>8:00 AM - 6:00 PM<br/>Sunday: Closed"
                         link="#contact"
                         delay={0.3}
+                    />
+                    <ContactInfoCard
+                        icon={Globe}
+                        title="Service Areas"
+                        content="King County<br/>Pierce County<br/>Thurston County<br/><span class='text-brand-sage text-xs font-semibold mt-1 inline-block'>★ All surrounding greater Seattle area</span>"
+                        link="#contact"
+                        delay={0.4}
                     />
                 </div>
             </div>

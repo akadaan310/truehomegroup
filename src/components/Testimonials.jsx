@@ -5,26 +5,20 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
     {
         author: "Sarah M.",
-        location: "Tampa, FL",
+        location: "Bellevue, WA",
         text: "They installed our new gas range and I was nervous about the gas line. The tech explained every step, checked for leaks three times, and left the kitchen cleaner than they found it.",
         rating: 5,
     },
     {
         author: "James T.",
-        location: "St. Petersburg, FL",
+        location: "Seattle, WA",
         text: "We bought a massive built-in refrigerator that Best Buy said they couldn't fit. TrueHome measured, made micro adjustments to our cabinetry trim, and installed it flawlessly. True professionals.",
         rating: 5,
     },
     {
         author: "Elena R.",
-        location: "Clearwater, FL",
+        location: "Issaquah, WA",
         text: "Punctual, polite, and extremely knowledgeable. Our washing machine setup was complicated due to the old house plumbing, but they retrofitted the connections safely and effectively.",
-        rating: 5,
-    },
-    {
-        author: "Michael P.",
-        location: "Wesley Chapel, FL",
-        text: "I appreciate any contractor who puts down drop cloths before bringing their toolbox inside. Top-tier service from start to finish. I won't use anyone else for appliance installs.",
         rating: 5,
     }
 ];

@@ -35,7 +35,7 @@ const Footer = () => {
                     <ul className="space-y-4 text-sm text-brand-white/70">
                         <li>
                             <a href="mailto:appliances@truehomegroup.com" className="hover:text-brand-sage transition-colors flex items-center gap-2">
-                                appliances@truehomegroup.com
+                                Appliances@truehomegroup.com
                             </a>
                         </li>
                         <li className="flex items-center gap-2">
